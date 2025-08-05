@@ -1,17 +1,17 @@
-import {MainScene} from './scenes/mainScene.js';
+import {MainScene} from "./scenes/mainScene.js";
+import {constants} from "./constants.js";
 
 const config = {
     type: Phaser.AUTO,
-    title: 'Boardgame SET',
-    description: '',
-    parent: 'game-container',
-    width: 1280,
-    height: 720,
-    backgroundColor: '#FFF',
+    title: "Boardgame SET",
+    description: "",
+    parent: "game-container",
+    width: constants.WINDOW_WIDTH,
+    height: constants.WINDOW_HEIGHT,
+    backgroundColor: constants.BACKGROUND_COLOR,
     pixelArt: false,
     scene: [
         MainScene,
-        // Start,
     ],
     scale: {
         mode: Phaser.Scale.FIT,
