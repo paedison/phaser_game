@@ -1,0 +1,6 @@
+**/old/
+/.pytest_cache/
+/venv/
+/.idea/
+**/.idea/
+*.log
